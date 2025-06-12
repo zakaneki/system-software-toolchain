@@ -1,0 +1,11 @@
+# Build artifacts
+asembler
+linker
+emulator
+*.o
+program.hex
+
+# Generated files from bison and flex
+myparser.tab.c
+myparser.tab.h
+lex.yy.c
